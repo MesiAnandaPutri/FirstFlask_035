@@ -13,5 +13,5 @@ def index():
         alamat = request.form['alamat']
         nomor_telepon = request.form['nomor_telepon']
         email = request.form['email']
-        
-       
+         
+        return f'NIM: {nim}, Nama: {nama}, Tempat Lahir: {tempat_lahir}, Tanggal Lahir: {tanggal_lahir}, Program Studi: {program_studi}, Alamat: {alamat}, Nomor Telepon: {nomor_telepon}, Email: {email}'
