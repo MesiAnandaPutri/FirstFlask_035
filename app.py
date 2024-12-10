@@ -17,3 +17,6 @@ def index():
         return f'NIM: {nim}, Nama: {nama}, Tempat Lahir: {tempat_lahir}, Tanggal Lahir: {tanggal_lahir}, Program Studi: {program_studi}, Alamat: {alamat}, Nomor Telepon: {nomor_telepon}, Email: {email}'
 
     return render_template('index.html')
+
+if __name__== '__main__':
+    app.run(debug=True)
