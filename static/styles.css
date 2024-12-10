@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffbbf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #a2d6f5;
+    border-radius: 10px; /* Radius lebih kecil */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Shadow lebih ringan */
+    width: 90%; /* Mengurangi lebar */
+    max-width: 350px; /* Maksimal lebih kecil */
+    padding: 30px; /* Padding lebih kecil */
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 24px; /* Ukuran font judul lebih kecil */
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px; /* Jarak lebih kecil */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px; /* Margin lebih kecil */
+    color: #555;
+    font-weight: bold;
+    font-size: 14px; /* Ukuran font lebih kecil */
+}
+
+input[type="text"], 
+input[type="email"], 
+select, 
+textarea {
+    width: 100%;
+    padding: 10px; /* Padding lebih kecil */
+    margin-bottom: 10px; /* Jarak antar elemen lebih kecil */
+    border: 1.5px solid #ced4da; /* Border lebih tipis */
+    border-radius: 6px; /* Radius lebih kecil */
+    font-size: 14px; /* Ukuran font lebih kecil */
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+select:focus, 
+textarea:focus {
+    border-color: #dfaef4;
+    box-shadow: 0 0 4px rgba(151, 54, 178, 0.4); /* Shadow lebih kecil */
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px; /* Padding lebih kecil */
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px; /* Radius lebih kecil */
+    font-size: 16px; /* Ukuran font tombol lebih kecil */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: translateY(-1px); /* Animasi lebih ringan */
+}
+
+textarea {
+    resize: vertical;
+    min-height: 60px; /* Tinggi minimal textarea lebih kecil */
+}
