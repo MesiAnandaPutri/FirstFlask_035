@@ -15,3 +15,5 @@ def index():
         email = request.form['email']
          
         return f'NIM: {nim}, Nama: {nama}, Tempat Lahir: {tempat_lahir}, Tanggal Lahir: {tanggal_lahir}, Program Studi: {program_studi}, Alamat: {alamat}, Nomor Telepon: {nomor_telepon}, Email: {email}'
+
+    return render_template('index.html')
